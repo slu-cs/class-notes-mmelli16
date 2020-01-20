@@ -4,12 +4,57 @@
   <head>
     <meta charset="utf-8">
     <title>Lorem News</title>
+    <style>
+
+      body{
+        font-family:"Segoe UI", sans-serif;
+        padding: 1%;
+      }
+
+      header{
+        background: #e9ecef;
+        text-align: center;
+        padding- top:0.25%;
+        padding- bottom: 1.5%;
+
+      }
+      #motto {
+        font-style: italic;
+      }
+
+      main{
+        width: 75%;
+        float: left;
+      }
+      nav{
+        width: 23%;
+        float: right;
+      }
+      main img{
+        float: left;
+        margin: 2%;
+
+      }
+      nav ul{
+        list-style: none;
+        padding= 0;
+      }
+      nav li{
+        padding: 5%;
+        border: 1px solid #e9ecef;
+      }
+      .article{
+        color: #007bff;
+        text-decoration: none;
+      }
+
+    </style>
   </head>
 
   <body>
     <header>
       <h1>Lorem News</h1>
-      <span>The Real Fake News</span>
+      <span id="motto">The Real Fake News</span>
     </header>
     <main>
       <article>
@@ -18,14 +63,15 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor, enim sit amet pretium condimentum, orci odio viverra risus, a aliquam ligula magna sit amet felis. Morbi tincidunt lectus nunc, vitae pellentesque ligula scelerisque et. Etiam maximus ac leo eget sodales. Phasellus ac nisl vitae ipsum convallis ornare. Quisque magna sem, lobortis ut massa non, euismod luctus nulla. Mauris malesuada lectus purus, eu maximus tellus placerat sed. Quisque nulla quam, varius at nibh ut, sollicitudin tempus nulla. Vivamus porta felis in congue suscipit. Quisque luctus tincidunt mattis. Ut facilisis lectus sit amet justo consectetur elementum.</p>
         <p>Vestibulum semper sollicitudin massa ac vestibulum. Pellentesque non nisl ut magna mollis tristique. Vestibulum nec venenatis libero. Pellentesque augue massa, mattis nec euismod hendrerit, efficitur hendrerit elit. Mauris a feugiat urna, eu volutpat lorem. Suspendisse tempor magna quis tellus dapibus, vel viverra nunc tincidunt. Morbi tortor dui, laoreet aliquam pharetra at, placerat vel mi. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
       </article>
-      <nav>
-        <ul>
-          <li><a href="#">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
-          <li><a href="#">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
-          <li><a href="#">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
-          <li><a href="#">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
-        </ul>
-      </nav>
     </main>
+    <nav>
+      <h2>See Also</h2>
+      <ul>
+        <li><a href="#" class="article">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
+        <li><a href="#" class="article">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
+        <li><a href="#" class="article">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
+        <li><a href="#" class="article">Maecenas posuere lectus euismod justo commodo volutpat.</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
