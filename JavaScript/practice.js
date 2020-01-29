@@ -26,5 +26,5 @@ while (count<=100){
   if (count % 5 === 0 && count % 3 !== 0){
     console.log(count2);
   }
-  count+=1;
+  count2+=1;
 }
