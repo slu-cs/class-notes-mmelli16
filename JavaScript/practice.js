@@ -19,11 +19,11 @@ while (fibtotal<1000){
 console.log(fibtotal);
 
 let count2=0;
-while (count<=100){
-  if (count % 3 === 0 && count % 5 !== 0){
+while (count2<=100){
+  if (count2 % 3 === 0 && count2 % 5 !== 0){
     console.log(count2);
   }
-  if (count % 5 === 0 && count % 3 !== 0){
+  if (count2 % 5 === 0 && count2 % 3 !== 0){
     console.log(count2);
   }
   count2+=1;
