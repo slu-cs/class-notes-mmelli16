@@ -11,7 +11,7 @@ let fib2=1;
 let fibtotal=0;
 let temp1=0
 while (fibtotal<1000){
-  fibtotal=temp1;
+  temp1=fibtotal;
   fibtotal=fib1+fib2;
   fib1=fib2;
   fib2=temp1;
