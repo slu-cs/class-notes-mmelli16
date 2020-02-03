@@ -61,3 +61,34 @@ const result = print(7,8);
 console.log(result);
 print(9);
 print();
+
+//object literal with a method
+const rectangle = {
+  width: 10,
+  height: 20,
+  area: function() {
+    return this.width * this.height;
+  }
+};
+
+//method call
+console.log(rectangle.area());
+
+//constructor definition
+const Rectangle= function(width, height) {
+  this.width=width
+  this.height =height
+}
+
+//shared method
+Rectangle.prototype.area = function () {
+  return this.width * this.height;
+};
+
+//Constructing objects
+const small= new Rectangle(1,2);
+const large= new Rectangle(10,20);
+
+//method calls
+console.log(small.area());
+console.log(large.area());
