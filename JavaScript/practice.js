@@ -19,12 +19,14 @@ while (fibtotal<1000){
 console.log(fibtotal);
 
 let count2=0;
+let total=0
 while (count2<=100){
   if (count2 % 3 === 0 && count2 % 5 !== 0){
-    console.log(count2);
+    total+=1;
   }
   if (count2 % 5 === 0 && count2 % 3 !== 0){
-    console.log(count2);
+    total+=1;
   }
   count2+=1;
 }
+console.log(total);
