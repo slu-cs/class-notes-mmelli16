@@ -3,7 +3,7 @@
 //Asynchronous Call (dont wait for the result, move on and hndle result when it arrives)
 const readline = require('readline');
 
-const user = readline.createinterface({
+const user = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
