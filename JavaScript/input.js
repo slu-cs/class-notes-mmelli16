@@ -12,3 +12,6 @@ const user = readline.createInterface({
 user.question('Filename: ', function(filename) {
   console.log(filename);
 })
+
+//this part isnt after the console input
+console.log('here');
