@@ -14,7 +14,7 @@ const user = readline.createInterface({
 user.question('Filename: ', function(filename) {
   //file configuration
   const file= readline.createInterface({
-    input: fs.createReadStream(filename);
+    input: fs.createReadStream(filename)
   })
 
   //Assyincronous Line by line input
