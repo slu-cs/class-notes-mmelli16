@@ -20,3 +20,11 @@ const numbers= [1,2,3,4,5];
 //use map
 console.log(map(numbers, square));
 console.log(numbers);
+
+//Arrow function (wors the same as square)
+console.log(map(numbers, x=> x**2));
+console.log(map(numbers, x=> x + 2));
+
+//in a different way
+console.log(numbers.map(x=> x**2));
+console.log(numbers.map(x=> x + 2));
